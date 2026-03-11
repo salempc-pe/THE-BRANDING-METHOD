@@ -23,62 +23,63 @@ export const bookContent: Driver[] = [
       {
         id: "dog-matrix",
         name: "The Dog Matrix",
-        description: "Clasifica tus productos o servicios según su rentabilidad y potencial.",
+        description: "Diferencia entre quien te compra y quien te consume.",
         meetQuestions: [
-          "¿Sabes qué productos te dan dinero hoy?",
-          "¿Sabes cuáles son tus apuestas de futuro?",
-          "¿Tienes productos que solo te quitan tiempo?"
+          "¿Quién paga la factura (The Guy)?",
+          "¿Quién disfruta el beneficio (The Dog)?",
+          "¿A quién aspiras llegar realmente (The Queen)?",
+          "¿Quién te conoce pero no te elige (The Snake)?"
         ],
         playType: 'matrix',
-        playQuestions: ["Golden Retriever", "Pastor Alemán", "Chihuahua", "Gran Danés"]
+        playQuestions: ["The Guy (Cliente)", "The Dog (Consumidor)", "The Queen (Ideal)", "The Snake (Cobra)"]
       },
       {
         id: "feel-map",
         name: "The Feel Map",
-        description: "Entiende qué siente tu cliente ante una necesidad.",
+        description: "Mapa de empatía profunda: Yo Exterior vs Yo Interior.",
         meetQuestions: [
-          "¿Qué frustraciones tiene tu cliente?",
-          "¿Qué alegrías busca encontrar?",
-          "¿Qué tareas intenta resolver?"
+          "¿Qué estímulos externos recibe (FEEL OUT)?",
+          "¿Qué piensa cuando nadie le ve (FEEL IN)?",
+          "¿Qué miedos y anhelos reales tiene?"
         ],
         playType: 'map',
-        playQuestions: ["Frustraciones", "Alegrías", "Tareas del cliente"]
+        playQuestions: ["FEEL OUT (Exterior)", "FEEL IN (Interior)", "Anhelos & Miedos"]
       },
       {
         id: "brand-desire",
         name: "Brand Desire Canvas",
-        description: "Encuentra el punto de unión entre tu marca y el deseo del cliente.",
+        description: "Dimensiones del deseo simbólico y construcción de identidad.",
         meetQuestions: [
-          "¿Qué ofreces tú?",
-          "¿Qué desea el mercado?",
-          "¿Dónde se cruzan ambos caminos?"
+          "¿Qué pienso de mí mismo al usarte (SELF)?",
+          "¿Qué pensaría de un amigo que te usa (FRIEND)?",
+          "¿Qué quiero proyectar ante los demás (SOCIAL)?"
         ],
         playType: 'canvas',
-        playQuestions: ["Atributos de Marca", "Deseos del Consumidor", "Punto de Deseo"]
+        playQuestions: ["Self (Personal)", "Enemy (Celos)", "Friend (Afinidad)", "Social (Estatus)"]
       },
       {
         id: "attitudinal-journey",
         name: "Attitudinal Journey",
-        description: "Mapea el viaje emocional de tu cliente.",
+        description: "Mapea los puntos de prueba, emoción y tangibilidad.",
         meetQuestions: [
-          "¿Cómo se siente antes de encontrarte?",
-          "¿Qué experimenta durante la compra?",
-          "¿Cómo cambia su vida después?"
+          "¿Qué pruebas necesita para confiar (Proof Points)?",
+          "¿Cómo le haces sentir único (Feel Points)?",
+          "¿Cómo lo haces real (Sweet Points)?"
         ],
         playType: 'journey',
-        playQuestions: ["Antes", "Durante", "Después"]
+        playQuestions: ["Proof Points (Confianza)", "Feel Points (Emoción)", "Sweet Points (Tangibilidad)"]
       },
       {
         id: "brand-ego",
         name: "The Brand Ego",
-        description: "Define la esencia y personalidad central de tu marca.",
+        description: "Define tu paracaídas: Placer Racional vs Dolor Irracional.",
         meetQuestions: [
-          "¿Si tu marca fuera una persona, cómo sería?",
-          "¿Qué valores son innegociables?",
-          "¿Cuál es tu gran propósito?"
+          "¿Qué placer consciente aportas?",
+          "¿Qué dolor inconsciente evitas?",
+          "¿Cómo sobrevives en su mente?"
         ],
         playType: 'ego',
-        playQuestions: ["Personalidad", "Valores", "Misión"]
+        playQuestions: ["Consciente (Placer)", "Inconsciente (Dolor)", "Personalidad & Mantra"]
       }
     ]
   },
@@ -90,62 +91,62 @@ export const bookContent: Driver[] = [
       {
         id: "max-pyramid",
         name: "The Max Pyramid",
-        description: "Visualiza los niveles de competencia en tu sector.",
+        description: "Niveles de atributos: Higiénicos, Diferenciales y Singulares.",
         meetQuestions: [
-          "¿Quiénes son tus competidores directos?",
-          "¿Quiénes ofrecen alternativas diferentes?",
-          "¿Quiénes compiten por el mismo presupuesto?"
+          "¿Cuáles son tus básicos (Higiénicos)?",
+          "¿Qué te hace mejor (Diferenciales)?",
+          "¿Qué te hace único e inimitable (Singulares)?"
         ],
         playType: 'pyramid',
-        playQuestions: ["Competencia Directa", "Competencia Indirecta", "Competencia por presupuesto"]
+        playQuestions: ["Higiénicos (Básicos)", "Diferenciales (Valor)", "Singulares (Único)"]
       },
       {
         id: "brand-territory",
         name: "The Brand Territory",
-        description: "Define el espacio conceptual que quieres liderar.",
+        description: "Categorías de competición: Producto, Marca, Cliente o Sentido.",
         meetQuestions: [
-          "¿En qué territorio mental quieres vivir?",
-          "¿Qué palabras quieres adueñarte?",
-          "¿De qué temas quieres ser el referente?"
+          "¿Te centras en el Producto o en el Legado?",
+          "¿En el beneficio del Cliente o en el Impacto Social?",
+          "¿O buscas la Trascendencia (Meaning)?"
         ],
         playType: 'territory',
-        playQuestions: ["Conceptos clave", "Temas de autoridad", "Tu territorio"]
+        playQuestions: ["Product/Brand Oriented", "Customer/Social Oriented", "Meaning Oriented"]
       },
       {
         id: "abc-roll-axis",
         name: "ABC Roll Axis",
-        description: "Posiciona tu marca en los ejes de Aspiracional vs Democrático y Facilitador vs Inspiracional.",
+        description: "Define tu música: Aspiracional vs Democrático / Facilitador vs Inspiracional.",
         meetQuestions: [
-          "¿Buscan tus clientes elevar su estatus o ser parte de un grupo?",
-          "¿Les das herramientas o les das motivación?",
-          "¿Nike o Decathlon?"
+          "¿Elevas al cliente o lo unes a la masa?",
+          "¿Le das herramientas o le das motivación?",
+          "¿Dónde se ubica tu Roll de marca?"
         ],
         playType: 'axis',
-        playQuestions: ["Consumer Roll (Aspiración vs Democrático)", "Brand Roll (Facilitador vs Inspiracional)"]
+        playQuestions: ["Consumer Roll (Estatus)", "Brand Roll (Actitud)"]
       },
       {
         id: "revolution-matrix",
         name: "Revolution Matrix",
-        description: "Aprende de los resistentes e inspírate de los innovadores.",
+        description: "Aprende de los Masters, Rockets y Radicales.",
         meetQuestions: [
-          "¿Qué competidores son los líderes históricos?",
-          "¿Quién está haciendo las cosas de forma diferente (Rocket)?",
-          "¿Quién ha cambiado las reglas del juego (Radical)?"
+          "¿Quién es el resiliente histórico (Master)?",
+          "¿Quién es el líder de hoy (Rocket)?",
+          "¿Quién rompe las reglas (Radical)?"
         ],
         playType: 'matrix',
-        playQuestions: ["Históricos (Master)", "Estrella (Rocket)", "Revolución (Radical)"]
+        playQuestions: ["Masters (Resiliencia)", "Rockets (Velocidad)", "Radicales (Ruptura)"]
       },
       {
         id: "five-friends",
         name: "The 5 Friends",
-        description: "Busca patrones disruptivos fuera de tu sector.",
+        description: "Importa patrones de éxito de otros ecosistemas.",
         meetQuestions: [
-          "¿Qué 5 marcas te inspiran?",
-          "¿Qué tienen en común aunque sean sectores distintos?",
-          "¿Qué puedes aprender de un chef si vendes software?"
+          "¿Qué 5 marcas ajenas admiras?",
+          "¿Qué puedes importar de su éxito?",
+          "¿Cómo aplicarías su modelo a tu negocio?"
         ],
         playType: 'friends',
-        playQuestions: ["Marca 1", "Marca 2", "Marca 3", "Marca 4", "Marca 5", "Patrones comunes"]
+        playQuestions: ["Marca 1", "Marca 2", "Marca 3", "Marca 4", "Marca 5", "Patrones importables"]
       }
     ]
   },
@@ -157,13 +158,11 @@ export const bookContent: Driver[] = [
       {
         id: "five-ques",
         name: "Los 5 Qué's del Branding",
-        description: "Construye valor desde lo que eres con 5 preguntas fundamentales.",
+        description: "Las 5 preguntas que decodifican tu valor real.",
         meetQuestions: [
-          "¿Qué evangelizas?",
-          "¿Qué defiendes?",
-          "¿Qué motivas?",
-          "¿Qué elevas?",
-          "¿Qué aportas?"
+          "¿Qué evangelizas y defiendes?",
+          "¿Qué motivas y elevas?",
+          "¿Qué aportas realmente?"
         ],
         playType: 'check',
         playQuestions: ["Evangelizas", "Defiendes", "Motivas", "Elevas", "Aportas"]
@@ -171,47 +170,47 @@ export const bookContent: Driver[] = [
       {
         id: "core-value",
         name: "The Core Value",
-        description: "El corazón y mantra de tu marca en una sola frase.",
+        description: "El faro y mantra: Mantra (3 palabras) y Elixir (1 palabra).",
         meetQuestions: [
-          "¿Qué espacio quieres ocupar en la mente de tus clientes?",
-          "¿Puedes explicarlo para que lo entienda una abuela y su nieta?",
-          "¿Cuál es tu mantra?"
+          "¿Puedes explicar tu marca a una abuela y su nieta?",
+          "¿Cuál es tu mantra matador?",
+          "¿Cuál es la palabra que te resume (Elixir)?"
         ],
         playType: 'ego',
-        playQuestions: ["Sentimiento deseado", "Mantra (3 palabras)", "Elixir (1 palabra)"]
+        playQuestions: ["Mantra de Marca", "Elixir (Palabra Única)", "Concepto Faro"]
       },
       {
         id: "positioning-model",
         name: "Brand Positioning Model",
-        description: "Estructura tu promesa, avales y por qué existes.",
+        description: "Estructura matemática: Promesa, Avales y Propósito.",
         meetQuestions: [
-          "¿Qué van a vivir gracias a ti?",
-          "¿Cómo haces posible lo que prometes?",
-          "¿Qué vas a aportar a lo ya existente?"
+          "¿Qué van a vivir gracias a ti (Promesa)?",
+          "¿Qué avala tu promesa (Proof Points)?",
+          "¿Por qué existes realmente (Propósito)?"
         ],
         playType: 'canvas',
-        playQuestions: ["¿Qué? (Promesa)", "¿Cómo? (Avales)", "¿Por qué? (Propósito)"]
+        playQuestions: ["Promesa (¿Qué?)", "Avales (¿Cómo?)", "Propósito (¿Por qué?)"]
       },
       {
         id: "purpose-check",
         name: "Propósito Check",
-        description: "Evalúa si tu propósito es real o puro pose.",
+        description: "Del Storytelling al Storydoing: Impacto real en el mundo.",
         meetQuestions: [
-          "¿Impactas de forma positiva en tus 'no clientes'?",
-          "¿Buscas beneficios más allá de los ingresos?",
-          "¿Pasas del storytelling al storydoing?"
+          "¿Tu propósito te cuesta dinero pero lo mantienes?",
+          "¿Impactas en tus 'no clientes'?",
+          "¿Qué acciones lo demuestran?"
         ],
         playType: 'check',
-        playQuestions: ["Doing Good Score (/10)", "Causas que defiendes", "Acciones de impacto"]
+        playQuestions: ["Storydoing Score", "Causas & Impacto", "Acciones Reales"]
       },
       {
         id: "brand-values",
         name: "Brand Values",
-        description: "Define los principios que guían tus actos y expresiones.",
+        description: "Valores en 4 dimensiones: Social, Interno, Cliente y Competencia.",
         meetQuestions: [
-          "¿Qué valor aportas a la sociedad?",
-          "¿Qué valor te aportas a ti mismo?",
-          "¿Qué valor aportas a tus clientes y competencia?"
+          "¿Qué espera la sociedad de ti?",
+          "¿Qué guía tus actos internos?",
+          "¿Qué te hace competitivo?"
         ],
         playType: 'flower',
         playQuestions: ["Valor Social", "Valor Interno", "Valor al Cliente", "Valor Competitivo"]
@@ -226,11 +225,11 @@ export const bookContent: Driver[] = [
       {
         id: "brand-symbol",
         name: "The Brand Symbol",
-        description: "Capitaliza tu patrimonio inmaterial y asociaciones simbólicas.",
+        description: "Patrimonio inmaterial: Ideales, Asociaciones, Símbolos y Ritos.",
         meetQuestions: [
           "¿Qué ideales representas?",
-          "¿A qué elementos (motor, motor, etc.) te asocias?",
-          "¿Qué rituales o ritos vives?"
+          "¿A qué elementos (naturaleza, motor, etc.) te unes?",
+          "¿Qué iconografía construyes?"
         ],
         playType: 'canvas',
         playQuestions: ["Ideales", "Asociaciones", "Símbolos", "Ritos"]
@@ -238,50 +237,50 @@ export const bookContent: Driver[] = [
       {
         id: "charisma-archetypes",
         name: "Brand Charisma Archetypes",
-        description: "Elige tu arquetipo para atraer a tu 'tribu'.",
+        description: "Anclaje en los 12 patrones de personalidad universales.",
         meetQuestions: [
-          "¿Eres Radical, Hero o Hedonist?",
-          "¿Buscas Cambio o Estabilidad?",
-          "¿Individualismo o Colectividad?"
+          "¿Eres Rebelde, Sabio o Héroe?",
+          "¿Buscas Cambio, Control, Pertenencia o Independencia?",
+          "¿Qué miedo personifica tu marca?"
         ],
         playType: 'list',
-        playQuestions: ["Arquetipo principal", "Atributos clave", "Miedo a evitar"]
+        playQuestions: ["Arquetipo Primario", "Personalidad", "Miedos a evitar"]
       },
       {
         id: "tone-voice",
         name: "Tone of Voice Path",
-        description: "Define cómo hablas y qué deben transmitir tus mensajes.",
+        description: "Identidad verbal: Tono, Voice Land, Palabras Sagradas y Prohibidas.",
         meetQuestions: [
-          "¿Cuál es tu tono de voz (serio, divertido, audaz)?",
-          "¿Qué palabras son sagradas y cuáles están prohibidas?",
-          "¿Cuál es tu territorio verbal?"
+          "¿Cómo hablas cuando nadie te ve?",
+          "¿Qué palabras te definen?",
+          "¿Qué lenguaje jamás usarías?"
         ],
         playType: 'check',
-        playQuestions: ["Tono", "Palabras Clave", "Palabras Prohibidas", "Guía de estilo"]
+        playQuestions: ["Tono (Carácter)", "Voice Land (Territorio)", "Sagradas & Prohibidas", "Guía de Estilo"]
       },
       {
         id: "full-brand-board",
         name: "Full Brand Board",
-        description: "Diseña tu universo visual: más allá del logo.",
+        description: "Universo visual estratégico: tipografías, colores, stickers y emojis.",
         meetQuestions: [
-          "¿Cómo sería la casa de tu marca?",
-          "¿Qué tipografía, colores y fotografía te definen?",
-          "¿Qué stickers o emojis usas?"
+          "¿Cómo es la casa de tu marca?",
+          "¿Qué texturas y emojis te representan?",
+          "¿Es tu estética coherente con tu esencia?"
         ],
         playType: 'board',
-        playQuestions: ["Logo & Símbolo", "Color & Tipografía", "Fotografía & Estilo"]
+        playQuestions: ["Core Visual (Logo/Colores)", "Estilo (Foto/Icono)", "Detalles (Emoji/Stickers)"]
       },
       {
         id: "sense-square",
         name: "The Sense Square",
-        description: "Activa tu marca a través de los 5 sentidos.",
+        description: "Identidad sensorial: Sonic, Aroma, Taste y Touch Branding.",
         meetQuestions: [
-          "¿A qué suena tu marca (Sonic Branding)?",
-          "¿A qué huele o sabe?",
-          "¿Qué texturas tiene?"
+          "¿A qué suena tu marca?",
+          "¿Qué aroma desprendes?",
+          "¿Cómo se siente al tacto?"
         ],
         playType: 'square',
-        playQuestions: ["Oído", "Olfato/Gusto", "Tacto", "Vista"]
+        playQuestions: ["Sonic", "Aroma/Taste", "Touch", "Visual"]
       }
     ]
   },
@@ -293,62 +292,62 @@ export const bookContent: Driver[] = [
       {
         id: "why-we",
         name: "Why We?",
-        description: "Simplifica tu experiencia de valor para enamorar rápido.",
+        description: "Simplicidad como experiencia: Problema, Mejor Opción y CTA.",
         meetQuestions: [
-          "¿Qué problema resuelves?",
-          "¿Qué te hace la mejor opción?",
-          "¿Cuál es tu llamada a la acción?"
+          "¿Qué problema gigante resuelves?",
+          "¿Por qué eres tú y no el vecino?",
+          "¿Qué tiene que hacer el cliente ahora?"
         ],
         playType: 'check',
-        playQuestions: ["Problema solucionado", "Diferencial", "Call to Action"]
+        playQuestions: ["Problema Resuelto", "Propuesta de Valor", "Llamada a la Acción"]
       },
       {
         id: "brand-narratives",
         name: "Brand Narratives",
-        description: "Crea sagas de contenido que refuercen tu posicionamiento.",
+        description: "Sagas de contenido: Relato Interno y Externo.",
         meetQuestions: [
-          "¿Cuál es tu relato interno (para empleados)?",
-          "¿Cuáles son tus 3 grandes sagas externas?",
-          "¿Qué puntos de prueba (Proof Points) tienes?"
+          "¿Cuál es tu historia de garaje?",
+          "¿Qué 3 temas repetirás hasta la saciedad?",
+          "¿Qué datos sostienen tus historias?"
         ],
         playType: 'canvas',
-        playQuestions: ["Relato Interno", "Sagas Externas", "Puntos de Anclaje"]
+        playQuestions: ["Relato Interno (Cultura)", "Sagas Externas (Marca)", "Proof Points (Avales)"]
       },
       {
         id: "brand-rituals",
         name: "Brand Rituals",
-        description: "Ritualiza las interacciones (In, During, Out).",
+        description: "Experiencias guionizadas: In, During y Out.",
         meetQuestions: [
-          "¿Qué siente el cliente al entrar (In)?",
-          "¿Qué vive durante la compra?",
-          "¿Cómo le contactas fuera de la experiencia (Out)?"
+          "¿Cómo es tu bienvenida (IN)?",
+          "¿Cómo es el clímax de la compra (DURING)?",
+          "¿Cómo es el 'presagio' de despedida (OUT)?"
         ],
         playType: 'journey',
-        playQuestions: ["In", "During", "Out"]
+        playQuestions: ["Momento IN", "Momento DURING", "Momento OUT", "Ambiental vs Personal"]
       },
       {
         id: "golden-moments",
         name: "The 10 Golden Moments",
-        description: "Mapea los 10 momentos de oro del Customer Journey.",
+        description: "Los 10 eslabones de oro desde la necesidad hasta el orgullo.",
         meetQuestions: [
-          "¿Qué triggers activan el Momento Cero?",
-          "¿Cómo superas las expectativas en el Momento 7?",
-          "¿Cómo fomentas la recomendación?"
+          "¿Qué trigger activa la necesidad?",
+          "¿Cómo motivas la evaluación?",
+          "¿Cómo farda el cliente de ti (Social Bits)?"
         ],
         playType: 'journey',
-        playQuestions: ["Awareness a Decisión", "Compra a Recomendación"]
+        playQuestions: ["Zero/Active Bits", "Trust Bits (Compra)", "Win/Social Bits"]
       },
       {
         id: "burn-pyramid",
         name: "The Burn Pyramid",
-        description: "Pasa de ser un 'OK' a ser una experiencia 'BURN'.",
+        description: "Escalera de trascendencia: del OK al BURN (Marca a Fuego).",
         meetQuestions: [
-          "¿Haces las cosas bien (Basic) o haces algo WOW?",
-          "¿Eres representativo de sus ideales (Burn)?",
-          "¿Qué te hace trascendente?"
+          "¿Qué te hace seguro y competitivo (OK)?",
+          "¿Qué te hace memorable (WOW)?",
+          "¿Qué te hace representativo e irrepetible (BURN)?"
         ],
         playType: 'pyramid',
-        playQuestions: ["Niveles Basic/OK", "Niveles WOW/LOL", "Nivel BURN (Trascendencia)"]
+        playQuestions: ["Niveles BASIC/OK", "Niveles WOW/LOL", "Nivel BURN (Identidad)"]
       }
     ]
   }
